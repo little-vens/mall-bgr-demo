@@ -24,6 +24,7 @@ public class ProductController {
      * 列表展示功能
      * @return
      */
+    @RequestMapping("/findAll")
     public ModelAndView findAll(){
         ModelAndView mv = new ModelAndView();
         List<Product> products = ps.findAll();

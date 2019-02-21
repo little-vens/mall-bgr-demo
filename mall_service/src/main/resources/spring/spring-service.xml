@@ -13,7 +13,6 @@
         http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <import resource="spring-dao.xml" />
     <!-- 开启注解扫描 -->
     <context:component-scan base-package="com.zelda.malldemo.service" />
 
