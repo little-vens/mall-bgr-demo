@@ -11,5 +11,5 @@
 
     <artifactId>mall-demo-web</artifactId>
 
-
+    <packaging>war</packaging>
 </project>

@@ -11,5 +11,12 @@
 
     <artifactId>mall-demo-service</artifactId>
 
-
+    <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.zelda.mall-demo</groupId>
+            <artifactId>mall-demo-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
