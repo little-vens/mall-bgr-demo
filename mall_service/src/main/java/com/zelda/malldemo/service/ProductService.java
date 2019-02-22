@@ -9,6 +9,7 @@ import java.util.List;
  * @Company http://www.zelda.com
  */
 public interface ProductService {
+
     /**
      * 查询所有
      * @return
@@ -28,4 +29,5 @@ public interface ProductService {
      * @return
      */
     void saveProduct(Product product) throws Exception;
+
 }
