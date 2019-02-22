@@ -20,6 +20,16 @@ public class Product implements Serializable {
     private Double productPrice;        // 产品价格
     private String productDesc;         // 产品描述
     private Integer productStatus;      // 产品状态
+    private String productStatusStr;    // 状态字符
+
+
+    public String getProductStatusStr() {
+        return productStatusStr;
+    }
+
+    public void setProductStatusStr(String productStatusStr) {
+        this.productStatusStr = productStatusStr;
+    }
 
     public String getId() {
         return id;
@@ -83,5 +93,6 @@ public class Product implements Serializable {
 
     public void setProductStatus(Integer productStatus) {
         this.productStatus = productStatus;
+        this.setProductStatusStr(productStatus == 0 ? "关闭" : "开启");
     }
 }

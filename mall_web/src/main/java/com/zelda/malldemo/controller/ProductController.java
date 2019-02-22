@@ -25,11 +25,12 @@ public class ProductController {
      * @return
      */
     @RequestMapping("/findAll")
-    public ModelAndView findAll(){
+    public ModelAndView findAll() throws Exception {
         ModelAndView mv = new ModelAndView();
         List<Product> products = ps.findAll();
+        System.out.println(products.get(0).getProductStatusStr());
         mv.addObject("products", products);
-        mv.setViewName("list");
+        mv.setViewName("product-list");
         return mv;
     }
 
@@ -39,7 +40,7 @@ public class ProductController {
      * @return
      */
     @RequestMapping("/add")
-    public ModelAndView addProduct(Product product){
+    public ModelAndView addProduct(Product product) throws Exception {
         ModelAndView mv = new ModelAndView();
         ps.saveProduct(product);
         mv.setViewName("redirect:findAll");
