@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+
 /**
  * @author Link
  * @Company http://www.zelda.com
@@ -19,10 +20,11 @@ public class ProductServiceImpl implements ProductService {
 
     /**
      * 查询所有
+     *
      * @return
      */
     @Override
-    public List<Product> findAll() {
+    public List<Product> findAll() throws Exception {
         return pm.findAll();
     }
 
@@ -32,7 +34,17 @@ public class ProductServiceImpl implements ProductService {
      * @return
      */
     @Override
-    public Product findById(String pid) {
+    public Product findById(String pid) throws Exception {
         return pm.findById(pid);
+    }
+
+    /**
+     * 保存单行记录
+     * @param product
+     * @return
+     */
+    @Override
+    public void saveProduct(Product product) throws Exception {
+        pm.saveProduct(product);
     }
 }

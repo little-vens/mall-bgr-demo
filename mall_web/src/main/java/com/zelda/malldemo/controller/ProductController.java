@@ -32,4 +32,17 @@ public class ProductController {
         mv.setViewName("list");
         return mv;
     }
+
+    /**
+     * 产品保存
+     * @param product
+     * @return
+     */
+    @RequestMapping("/add")
+    public ModelAndView addProduct(Product product){
+        ModelAndView mv = new ModelAndView();
+        ps.saveProduct(product);
+        mv.setViewName("redirect:findAll");
+        return mv;
+    }
 }

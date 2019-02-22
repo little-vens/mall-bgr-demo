@@ -1,6 +1,7 @@
 package com.zelda.malldemo.mapper;
 
 import com.zelda.malldemo.pojo.Product;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
@@ -25,4 +26,16 @@ public interface ProductMapper {
      */
     @Select("select * from product where id = #{pid}")
     Product findById(String pid);
+
+    /**
+     * 保存单行记录
+     * @param product
+     * @return
+     */
+    @Insert("insert into product(PRODUCTNUM,PRODUCTNAME,CITYNAME," +
+            "DEPARTURETIME,PRODUCTPRICE,PRODUCTDESC,PRODUCTSTATUS)" +
+            " values(#{product.productNum},#{product.productName},#{product.cityName})" +
+            ",#{product.departureTime},#{product.productPrice},#{product.productDesc}" +
+            ",#{product.productStatus}")
+    void saveProduct(Product product);
 }

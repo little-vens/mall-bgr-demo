@@ -1,5 +1,5 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -8,9 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
+
+
     <title>数据 - AdminLTE2定制版</title>
     <meta name="description" content="AdminLTE2定制版">
     <meta name="keywords" content="AdminLTE2定制版">
+
+
 
 
     <!-- Tell the browser to be responsive to screen width -->
@@ -46,6 +50,12 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+
+
+
+
 
 
     <!-- jQuery 2.2.3 -->
@@ -86,28 +96,28 @@
     <!-- bootstrap-datetimepicker -->
     <!-- 页面meta /-->
 
-    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../plugins/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../plugins/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="../plugins/iCheck/square/blue.css">
-    <link rel="stylesheet" href="../plugins/morris/morris.css">
-    <link rel="stylesheet" href="../plugins/jvectormap/jquery-jvectormap-1.2.2.css">
-    <link rel="stylesheet" href="../plugins/datepicker/datepicker3.css">
-    <link rel="stylesheet" href="../plugins/daterangepicker/daterangepicker.css">
-    <link rel="stylesheet" href="../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-    <link rel="stylesheet" href="../plugins/datatables/dataTables.bootstrap.css">
-    <link rel="stylesheet" href="../plugins/treeTable/jquery.treetable.css">
-    <link rel="stylesheet" href="../plugins/treeTable/jquery.treetable.theme.default.css">
-    <link rel="stylesheet" href="../plugins/select2/select2.css">
-    <link rel="stylesheet" href="../plugins/colorpicker/bootstrap-colorpicker.min.css">
-    <link rel="stylesheet" href="../plugins/bootstrap-markdown/css/bootstrap-markdown.min.css">
-    <link rel="stylesheet" href="../plugins/adminLTE/css/AdminLTE.css">
-    <link rel="stylesheet" href="../plugins/adminLTE/css/skins/_all-skins.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../plugins/ionslider/ion.rangeSlider.css">
-    <link rel="stylesheet" href="../plugins/ionslider/ion.rangeSlider.skinNice.css">
-    <link rel="stylesheet" href="../plugins/bootstrap-slider/slider.css">
-    <link rel="stylesheet" href="../plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.css">
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="plugins/iCheck/square/blue.css">
+    <link rel="stylesheet" href="plugins/morris/morris.css">
+    <link rel="stylesheet" href="plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+    <link rel="stylesheet" href="plugins/datepicker/datepicker3.css">
+    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+    <link rel="stylesheet" href="plugins/datatables/dataTables.bootstrap.css">
+    <link rel="stylesheet" href="plugins/treeTable/jquery.treetable.css">
+    <link rel="stylesheet" href="plugins/treeTable/jquery.treetable.theme.default.css">
+    <link rel="stylesheet" href="plugins/select2/select2.css">
+    <link rel="stylesheet" href="plugins/colorpicker/bootstrap-colorpicker.min.css">
+    <link rel="stylesheet" href="plugins/bootstrap-markdown/css/bootstrap-markdown.min.css">
+    <link rel="stylesheet" href="plugins/adminLTE/css/AdminLTE.css">
+    <link rel="stylesheet" href="plugins/adminLTE/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="plugins/ionslider/ion.rangeSlider.css">
+    <link rel="stylesheet" href="plugins/ionslider/ion.rangeSlider.skinNice.css">
+    <link rel="stylesheet" href="plugins/bootstrap-slider/slider.css">
+    <link rel="stylesheet" href="plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.css">
 </head>
 
 <body class="hold-transition skin-purple sidebar-mini">
@@ -151,7 +161,7 @@
                                         <!-- start message -->
                                         <a href="#">
                                             <div class="pull-left">
-                                                <img src="../img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                                                <img src="img/user2-160x160.jpg" class="img-circle" alt="User Image">
                                             </div>
                                             <h4>
                                                 系统消息
@@ -164,7 +174,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="pull-left">
-                                                <img src="../img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                                                <img src="img/user3-128x128.jpg" class="img-circle" alt="User Image">
                                             </div>
                                             <h4>
                                                 团队消息
@@ -176,7 +186,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="pull-left">
-                                                <img src="../img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                                                <img src="img/user4-128x128.jpg" class="img-circle" alt="User Image">
                                             </div>
                                             <h4>
                                                 Developers
@@ -188,7 +198,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="pull-left">
-                                                <img src="../img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                                                <img src="img/user3-128x128.jpg" class="img-circle" alt="User Image">
                                             </div>
                                             <h4>
                                                 Sales Department
@@ -200,7 +210,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="pull-left">
-                                                <img src="../img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                                                <img src="img/user4-128x128.jpg" class="img-circle" alt="User Image">
                                             </div>
                                             <h4>
                                                 Reviewers
@@ -232,8 +242,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i class="fa fa-warning text-yellow"></i> Very long description here that
-                                            may not
+                                            <i class="fa fa-warning text-yellow"></i> Very long description here that may not
                                             fit into the page and may cause design problems
                                         </a>
                                     </li>
@@ -276,9 +285,7 @@
                                                 <small class="pull-right">20%</small>
                                             </h3>
                                             <div class="progress xs">
-                                                <div class="progress-bar progress-bar-aqua" style="width: 20%"
-                                                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                                                     aria-valuemax="100">
+                                                <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
                                                     <span class="sr-only">20% Complete</span>
                                                 </div>
                                             </div>
@@ -293,9 +300,7 @@
                                                 <small class="pull-right">40%</small>
                                             </h3>
                                             <div class="progress xs">
-                                                <div class="progress-bar progress-bar-green" style="width: 40%"
-                                                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                                                     aria-valuemax="100">
+                                                <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
                                                     <span class="sr-only">40% Complete</span>
                                                 </div>
                                             </div>
@@ -310,9 +315,7 @@
                                                 <small class="pull-right">60%</small>
                                             </h3>
                                             <div class="progress xs">
-                                                <div class="progress-bar progress-bar-red" style="width: 60%"
-                                                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                                                     aria-valuemax="100">
+                                                <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
                                                     <span class="sr-only">60% Complete</span>
                                                 </div>
                                             </div>
@@ -327,9 +330,7 @@
                                                 <small class="pull-right">80%</small>
                                             </h3>
                                             <div class="progress xs">
-                                                <div class="progress-bar progress-bar-yellow" style="width: 80%"
-                                                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                                                     aria-valuemax="100">
+                                                <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
                                                     <span class="sr-only">80% Complete</span>
                                                 </div>
                                             </div>
@@ -346,13 +347,13 @@
                     <!-- User Account: style can be found in dropdown.less -->
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="../img/user2-160x160.jpg" class="user-image" alt="User Image">
+                            <img src="img/user2-160x160.jpg" class="user-image" alt="User Image">
                             <span class="hidden-xs">张猿猿</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
                             <li class="user-header">
-                                <img src="../img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                                <img src="img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                                 <p>
                                     张猿猿 - 数据管理员
@@ -398,7 +399,7 @@
             <!-- Sidebar user panel -->
             <div class="user-panel">
                 <div class="pull-left image">
-                    <img src="../img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                    <img src="img/user2-160x160.jpg" class="img-circle" alt="User Image">
                 </div>
                 <div class="pull-left info">
                     <p>张猿猿</p>
@@ -422,10 +423,10 @@
             <ul class="sidebar-menu">
                 <li class="header">菜单</li>
 
-                <li id="admin-index"><a href="all-admin-index.html"><i class="fa fa-dashboard"></i> <span>首页</span></a>
-                </li>
+                <li id="admin-index"><a href="all-admin-index.html"><i class="fa fa-dashboard"></i> <span>首页</span></a></li>
 
                 <!-- 菜单 -->
+
 
 
                 <li class="treeview">
@@ -501,6 +502,7 @@
                 </li>
 
 
+
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-pie-chart"></i> <span>图表Charts</span>
@@ -536,6 +538,7 @@
 
                     </ul>
                 </li>
+
 
 
                 <li class="treeview">
@@ -593,6 +596,7 @@
                 </li>
 
 
+
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-edit"></i> <span>表单 Forms</span>
@@ -624,6 +628,7 @@
                 </li>
 
 
+
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-table"></i> <span>表格 tables</span>
@@ -649,6 +654,7 @@
                 </li>
 
 
+
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-cube"></i> <span>样例-订单管理</span>
@@ -672,6 +678,7 @@
 
                     </ul>
                 </li>
+
 
 
                 <li class="treeview">
@@ -705,6 +712,7 @@
                 </li>
 
 
+
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-cogs"></i> <span>样例-系统管理</span>
@@ -724,10 +732,10 @@
                 </li>
 
 
+
                 <!-- 菜单 /-->
 
-                <li id="admin-documentation"><a href="documentation.html" target="_blank"><i class="fa fa-book"></i>
-                    <span>AdminLTE汉化文档</span></a></li>
+                <li id="admin-documentation"><a href="documentation.html" target="_blank"><i class="fa fa-book"></i> <span>AdminLTE汉化文档</span></a></li>
 
             </ul>
         </section>
@@ -736,21 +744,16 @@
     <!-- 导航侧栏 /-->
 
     <!-- 内容区域 -->
-    <!-- @@master = admin-layout.html-->
-    <!-- @@block = content -->
-
     <div class="content-wrapper">
 
         <!-- 内容头部 -->
         <section class="content-header">
             <h1>
-                数据管理
-                <small>数据列表</small>
+                控制面板
+                <small>首页</small>
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> 首页</a></li>
-                <li><a href="#">数据管理</a></li>
-                <li class="active">数据列表</li>
+                <li><a href="all-admin-index.html"><i class="fa fa-dashboard"></i> 首页</a></li>
             </ol>
         </section>
         <!-- 内容头部 /-->
@@ -758,10 +761,78 @@
         <!-- 正文区域 -->
         <section class="content">
 
-            <!-- .box-body -->
+
+            <!-- 统计数值 -->
+            <div class="row">
+                <div class="col-lg-3 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box bg-aqua">
+                        <div class="inner">
+                            <h3>150</h3>
+
+                            <p>新订单</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-bag"></i>
+                        </div>
+                        <a href="all-order-manage-list.html" class="small-box-footer">详细 <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box bg-green">
+                        <div class="inner">
+                            <h3>53<sup style="font-size: 20px">%</sup></h3>
+
+                            <p>转化率</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-stats-bars"></i>
+                        </div>
+                        <a href="all-ad-statistics-list.html" class="small-box-footer">详细 <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box bg-yellow">
+                        <div class="inner">
+                            <h3>44</h3>
+
+                            <p>新注册用户</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-person-add"></i>
+                        </div>
+                        <a href="all-member-manage-list.html" class="small-box-footer">详细 <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box bg-red">
+                        <div class="inner">
+                            <h3>65</h3>
+
+                            <p>日PV</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-pie-graph"></i>
+                        </div>
+                        <a href="all-ad-statistics-list.html" class="small-box-footer">详细 <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+            </div>
+            <!-- /.row -->
+
+
+            <!-- 待处理订单 -->
             <div class="box box-primary">
                 <div class="box-header with-border">
-                    <h3 class="box-title">列表</h3>
+                    <i class="fa fa-cube"></i>
+                    <h3 class="box-title">待处理订单</h3>
                 </div>
 
                 <div class="box-body">
@@ -769,181 +840,202 @@
                     <!-- 数据表格 -->
                     <div class="table-box">
 
-                        <!--工具栏-->
-                        <div class="pull-left">
-                            <div class="form-group form-inline">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default" title="新建"><i
-                                            class="fa fa-file-o"></i> 新建
-                                    </button>
-                                    <button type="button" class="btn btn-default" title="删除"><i
-                                            class="fa fa-trash-o"></i> 删除
-                                    </button>
-                                    <button type="button" class="btn btn-default" title="开启"><i class="fa fa-check"></i>
-                                        开启
-                                    </button>
-                                    <button type="button" class="btn btn-default" title="屏蔽"><i class="fa fa-ban"></i>
-                                        屏蔽
-                                    </button>
-                                    <button type="button" class="btn btn-default" title="刷新"><i
-                                            class="fa fa-refresh"></i> 刷新
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box-tools pull-right">
-                            <div class="has-feedback">
-                                <input type="text" class="form-control input-sm" placeholder="搜索">
-                                <span class="glyphicon glyphicon-search form-control-feedback"></span>
-                            </div>
-                        </div>
-                        <!--工具栏/-->
+                        <!--数据列表-->
+                        <table id="dataList" class="table table-bordered table-striped table-hover dataTable">
+                            <thead>
+                            <tr>
+                                <th class=""><a href="${pageContext.request.contextPath}/product/findAll">订单号</a></th>
+                                <th class="">产品名称</th>
+                                <th class="">会员</th>
+                                <th class="">价格</th>
+                                <th class="">状态</th>
+                                <th class="text-center">操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+                            <tr>
+                                <td>2017020200001</td>
+                                <td>西安3日自由行·超级自由行</td>
+                                <td>bi'peng0405</td>
+                                <td>￥500</td>
+                                <td>已取消</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn bg-olive btn-xs" onclick='location.href="all-product-line-edit.html"'>编辑</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>2017020200001</td>
+                                <td>西安3日自由行·超级自由行</td>
+                                <td>bi'peng0405</td>
+                                <td>￥500</td>
+                                <td>已出团(待点评)</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn bg-olive btn-xs" onclick='location.href="all-product-line-edit.html"'>编辑</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>2017020200001</td>
+                                <td>西安3日自由行·超级自由行</td>
+                                <td>bi'peng0405</td>
+                                <td>￥500</td>
+                                <td>已处理(待付款)</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn bg-olive btn-xs" onclick='location.href="all-product-line-edit.html"'>编辑</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>2017020200001</td>
+                                <td>西安3日自由行·超级自由行</td>
+                                <td>bi'peng0405</td>
+                                <td>￥500</td>
+                                <td>已处理(待出团)</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn bg-olive btn-xs" onclick='location.href="all-product-line-edit.html"'>编辑</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>2017020200001</td>
+                                <td>西安3日自由行·超级自由行</td>
+                                <td>bi'peng0405</td>
+                                <td>￥500</td>
+                                <td>已取消</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn bg-olive btn-xs" onclick='location.href="all-product-line-edit.html"'>编辑</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>2017020200001</td>
+                                <td>西安3日自由行·超级自由行</td>
+                                <td>bi'peng0405</td>
+                                <td>￥500</td>
+                                <td>已取消</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn bg-olive btn-xs" onclick='location.href="all-product-line-edit.html"'>编辑</button>
+                                </td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                        <!--数据列表/-->
+
+                    </div>
+                    <!-- 数据表格 /-->
+
+                </div>
+                <!-- /.box-body -->
+
+            </div>
+            <!-- 待处理订单 /-->
+
+            <!-- 待处理游记 -->
+            <div class="box box-success">
+                <div class="box-header with-border">
+                    <i class="fa fa-book"></i>
+                    <h3 class="box-title">待处理游记</h3>
+                </div>
+
+                <div class="box-body">
+
+                    <!-- 数据表格 -->
+                    <div class="table-box">
 
                         <!--数据列表-->
                         <table id="dataList" class="table table-bordered table-striped table-hover dataTable">
                             <thead>
                             <tr>
-                                <th class="" style="padding-right:0px;">
-                                    <input id="selall" type="checkbox" class="icheckbox_square-blue">
-                                </th>
-                                <th class="sorting_asc">产品编号</th>
-                                <th class="sorting_desc">产品名称</th>
-                                <th class="sorting_asc sorting_asc_disabled">出发城市</th>
-                                <th class="sorting_desc sorting_desc_disabled">出发时间</th>
-                                <th class="sorting">产品价格</th>
-                                <th class="text-center sorting">产品描述</th>
-                                <th class="text-center sorting">状态</th>
+                                <th class="">会员昵称</th>
+                                <th class="">游记标题</th>
+                                <th class="">发布时间</th>
+                                <th class="">状态</th>
                                 <th class="text-center">操作</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <c:forEach items="${products}" var="product">
-                                <tr>
-                                    <td><input name="ids" type="checkbox"></td>
-                                    <td>${product.productNum}</td>
-                                    <td>${product.productName}</td>
-                                    <td>${product.cityName}</td>
-                                    <td>${product.departureTime}</td>
-                                    <td>${product.productPrice}￥</td>
-                                    <td>${product.productDesc}</td>
-                                    <td class="text-center">
-                                        <%--<c:when test="${product.productStatus == 1}">--%>
-                                            <%--开启--%>
-                                        <%--</c:when>--%>
-                                        <%--<c:when test="${product.productStatus == 0}">--%>
-                                            <%--关闭--%>
-                                        <%--</c:when>--%>
-                                            <c:if test="${product.productStatus == 1}">
-                                                开启
-                                            </c:if>
-                                            <c:if test="${product.productStatus == 0}">
-                                                关闭
-                                            </c:if>
 
-                                    </td>
-                                    <td class="text-center">
-                                        <button type="button" class="btn bg-olive btn-xs">订单</button>
-                                        <button type="button" class="btn bg-olive btn-xs">详情</button>
-                                        <button type="button" class="btn bg-olive btn-xs">编辑</button>
-                                    </td>
-                                </tr>
-                            </c:forEach>
+                            <tr>
+                                <td>大王叫我来巡山</td>
+                                <td>毕大爷带你游西安（附详细攻略）</td>
+                                <td>2017-03-07 17:45</td>
+                                <td>待审核</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn bg-olive btn-xs" onclick='location.href="all-travellog-manage-edit.html"'>编辑</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>大王叫我来巡山</td>
+                                <td>毕大爷带你游西安（附详细攻略）</td>
+                                <td>2017-03-07 17:45</td>
+                                <td>已发布</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn bg-olive btn-xs" onclick='location.href="all-travellog-manage-edit.html"'>编辑</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>大王叫我来巡山</td>
+                                <td>毕大爷带你游西安（附详细攻略）</td>
+                                <td>2017-03-07 17:45</td>
+                                <td>待审核</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn bg-olive btn-xs" onclick='location.href="all-travellog-manage-edit.html"'>编辑</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>大王叫我来巡山</td>
+                                <td>毕大爷带你游西安（附详细攻略）</td>
+                                <td>2017-03-07 17:45</td>
+                                <td>待审核</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn bg-olive btn-xs" onclick='location.href="all-travellog-manage-edit.html"'>编辑</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>大王叫我来巡山</td>
+                                <td>毕大爷带你游西安（附详细攻略）</td>
+                                <td>2017-03-07 17:45</td>
+                                <td>待审核</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn bg-olive btn-xs" onclick='location.href="all-travellog-manage-edit.html"'>编辑</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>大王叫我来巡山</td>
+                                <td>毕大爷带你游西安（附详细攻略）</td>
+                                <td>2017-03-07 17:45</td>
+                                <td>待审核</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn bg-olive btn-xs" onclick='location.href="all-travellog-manage-edit.html"'>编辑</button>
+                                </td>
+                            </tr>
+
 
                             </tbody>
-                            <!--
-                        <tfoot>
-                        <tr>
-                        <th>Rendering engine</th>
-                        <th>Browser</th>
-                        <th>Platform(s)</th>
-                        <th>Engine version</th>
-                        <th>CSS grade</th>
-                        </tr>
-                        </tfoot>-->
                         </table>
                         <!--数据列表/-->
-
-                        <!--工具栏-->
-                        <div class="pull-left">
-                            <div class="form-group form-inline">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default" title="新建"><i
-                                            class="fa fa-file-o"></i> 新建
-                                    </button>
-                                    <button type="button" class="btn btn-default" title="删除"><i
-                                            class="fa fa-trash-o"></i> 删除
-                                    </button>
-                                    <button type="button" class="btn btn-default" title="开启"><i class="fa fa-check"></i>
-                                        开启
-                                    </button>
-                                    <button type="button" class="btn btn-default" title="屏蔽"><i class="fa fa-ban"></i>
-                                        屏蔽
-                                    </button>
-                                    <button type="button" class="btn btn-default" title="刷新"><i
-                                            class="fa fa-refresh"></i> 刷新
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box-tools pull-right">
-                            <div class="has-feedback">
-                                <input type="text" class="form-control input-sm" placeholder="搜索">
-                                <span class="glyphicon glyphicon-search form-control-feedback"></span>
-                            </div>
-                        </div>
-                        <!--工具栏/-->
 
                     </div>
                     <!-- 数据表格 /-->
 
-
                 </div>
                 <!-- /.box-body -->
 
-                <!-- .box-footer-->
-                <div class="box-footer">
-                    <div class="pull-left">
-                        <div class="form-group form-inline">
-                            总共2 页，共14 条数据。 每页
-                            <select class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select> 条
-                        </div>
-                    </div>
-
-                    <div class="box-tools pull-right">
-                        <ul class="pagination">
-                            <li>
-                                <a href="#" aria-label="Previous">首页</a>
-                            </li>
-                            <li><a href="#">上一页</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#">下一页</a></li>
-                            <li>
-                                <a href="#" aria-label="Next">尾页</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-                <!-- /.box-footer-->
-
-
             </div>
+            <!-- 待处理游记 /-->
 
         </section>
         <!-- 正文区域 /-->
 
     </div>
-    <!-- @@close -->
     <!-- 内容区域 /-->
 
     <!-- 底部导航 -->
@@ -958,53 +1050,53 @@
 </div>
 
 
-<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
-<script src="../plugins/jQueryUI/jquery-ui.min.js"></script>
+<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="plugins/jQueryUI/jquery-ui.min.js"></script>
 <script>
     $.widget.bridge('uibutton', $.ui.button);
 </script>
-<script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="../plugins/raphael/raphael-min.js"></script>
-<script src="../plugins/morris/morris.min.js"></script>
-<script src="../plugins/sparkline/jquery.sparkline.min.js"></script>
-<script src="../plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="../plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-<script src="../plugins/knob/jquery.knob.js"></script>
-<script src="../plugins/daterangepicker/moment.min.js"></script>
-<script src="../plugins/daterangepicker/daterangepicker.js"></script>
-<script src="../plugins/daterangepicker/daterangepicker.zh-CN.js"></script>
-<script src="../plugins/datepicker/bootstrap-datepicker.js"></script>
-<script src="../plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js"></script>
-<script src="../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
-<script src="../plugins/slimScroll/jquery.slimscroll.min.js"></script>
-<script src="../plugins/fastclick/fastclick.js"></script>
-<script src="../plugins/iCheck/icheck.min.js"></script>
-<script src="../plugins/adminLTE/js/app.min.js"></script>
-<script src="../plugins/treeTable/jquery.treetable.js"></script>
-<script src="../plugins/select2/select2.full.min.js"></script>
-<script src="../plugins/colorpicker/bootstrap-colorpicker.min.js"></script>
-<script src="../plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.zh-CN.js"></script>
-<script src="../plugins/bootstrap-markdown/js/bootstrap-markdown.js"></script>
-<script src="../plugins/bootstrap-markdown/locale/bootstrap-markdown.zh.js"></script>
-<script src="../plugins/bootstrap-markdown/js/markdown.js"></script>
-<script src="../plugins/bootstrap-markdown/js/to-markdown.js"></script>
-<script src="../plugins/ckeditor/ckeditor.js"></script>
-<script src="../plugins/input-mask/jquery.inputmask.js"></script>
-<script src="../plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
-<script src="../plugins/input-mask/jquery.inputmask.extensions.js"></script>
-<script src="../plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="../plugins/datatables/dataTables.bootstrap.min.js"></script>
-<script src="../plugins/chartjs/Chart.min.js"></script>
-<script src="../plugins/flot/jquery.flot.min.js"></script>
-<script src="../plugins/flot/jquery.flot.resize.min.js"></script>
-<script src="../plugins/flot/jquery.flot.pie.min.js"></script>
-<script src="../plugins/flot/jquery.flot.categories.min.js"></script>
-<script src="../plugins/ionslider/ion.rangeSlider.min.js"></script>
-<script src="../plugins/bootstrap-slider/bootstrap-slider.js"></script>
-<script src="../plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.js"></script>
-<script src="../plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/raphael/raphael-min.js"></script>
+<script src="plugins/morris/morris.min.js"></script>
+<script src="plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="plugins/knob/jquery.knob.js"></script>
+<script src="plugins/daterangepicker/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.zh-CN.js"></script>
+<script src="plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js"></script>
+<script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="plugins/fastclick/fastclick.js"></script>
+<script src="plugins/iCheck/icheck.min.js"></script>
+<script src="plugins/adminLTE/js/app.min.js"></script>
+<script src="plugins/treeTable/jquery.treetable.js"></script>
+<script src="plugins/select2/select2.full.min.js"></script>
+<script src="plugins/colorpicker/bootstrap-colorpicker.min.js"></script>
+<script src="plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.zh-CN.js"></script>
+<script src="plugins/bootstrap-markdown/js/bootstrap-markdown.js"></script>
+<script src="plugins/bootstrap-markdown/locale/bootstrap-markdown.zh.js"></script>
+<script src="plugins/bootstrap-markdown/js/markdown.js"></script>
+<script src="plugins/bootstrap-markdown/js/to-markdown.js"></script>
+<script src="plugins/ckeditor/ckeditor.js"></script>
+<script src="plugins/input-mask/jquery.inputmask.js"></script>
+<script src="plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+<script src="plugins/input-mask/jquery.inputmask.extensions.js"></script>
+<script src="plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="plugins/datatables/dataTables.bootstrap.min.js"></script>
+<script src="plugins/chartjs/Chart.min.js"></script>
+<script src="plugins/flot/jquery.flot.min.js"></script>
+<script src="plugins/flot/jquery.flot.resize.min.js"></script>
+<script src="plugins/flot/jquery.flot.pie.min.js"></script>
+<script src="plugins/flot/jquery.flot.categories.min.js"></script>
+<script src="plugins/ionslider/ion.rangeSlider.min.js"></script>
+<script src="plugins/bootstrap-slider/bootstrap-slider.js"></script>
+<script src="plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.js"></script>
+<script src="plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         // 选择框
         $(".select2").select2();
 
@@ -1025,28 +1117,12 @@
     }
 
 
-    $(document).ready(function () {
-
+    $(document).ready(function() {
         // 激活导航位置
-        setSidebarActive("admin-datalist");
-
-        // 列表按钮
-        $("#dataList td input[type='checkbox']").iCheck({
-            checkboxClass: 'icheckbox_square-blue',
-            increaseArea: '20%'
-        });
-        // 全选操作
-        $("#selall").click(function () {
-            var clicks = $(this).is(':checked');
-            if (!clicks) {
-                $("#dataList td input[type='checkbox']").iCheck("uncheck");
-            } else {
-                $("#dataList td input[type='checkbox']").iCheck("check");
-            }
-            $(this).data("clicks", !clicks);
-        });
+        setSidebarActive("admin-index");
     });
 </script>
 </body>
 
 </html>
+<!---->
