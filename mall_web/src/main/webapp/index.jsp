@@ -118,6 +118,7 @@
     <link rel="stylesheet" href="plugins/ionslider/ion.rangeSlider.skinNice.css">
     <link rel="stylesheet" href="plugins/bootstrap-slider/slider.css">
     <link rel="stylesheet" href="plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.css">
+    <jsp:forward page="/pages/main.jsp"></jsp:forward>
 </head>
 
 <body class="hold-transition skin-purple sidebar-mini">

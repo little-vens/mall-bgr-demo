@@ -14,5 +14,5 @@ public interface OrdersService {
      * 查询所有
      * @return
      */
-    List<Orders> findAll();
+    List<Orders> findAll() throws Exception;
 }

@@ -28,7 +28,6 @@ public class ProductController {
     public ModelAndView findAll() throws Exception {
         ModelAndView mv = new ModelAndView();
         List<Product> products = ps.findAll();
-        System.out.println(products.get(0).getProductStatusStr());
         mv.addObject("products", products);
         mv.setViewName("product-list");
         return mv;
@@ -39,7 +38,7 @@ public class ProductController {
      * @param product
      * @return
      */
-    @RequestMapping("/add")
+    @RequestMapping("/save")
     public ModelAndView addProduct(Product product) throws Exception {
         ModelAndView mv = new ModelAndView();
         ps.saveProduct(product);

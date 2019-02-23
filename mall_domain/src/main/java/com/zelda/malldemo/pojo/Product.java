@@ -2,6 +2,7 @@ package com.zelda.malldemo.pojo;
 
 import com.zelda.malldemo.utils.DateUtils;
 import lombok.ToString;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -16,6 +17,8 @@ public class Product implements Serializable {
     private String productNum;          // 产品序号
     private String productName;         // 产品名称
     private String cityName;            // 城市名称
+
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm")
     private Date departureTime;         // 出发时间
     private String departureTimeStr;
     private Double productPrice;        // 产品价格

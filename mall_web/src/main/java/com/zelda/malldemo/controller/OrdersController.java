@@ -24,7 +24,7 @@ public class OrdersController {
      * @return "orders-list.jsp"
      */
     @RequestMapping("/findAll")
-    public String findAll(Model model){
+    public String findAll(Model model) throws Exception{
         List<Orders> ordersList = os.findAll();
         model.addAttribute("ordersList", ordersList);
         return "orders-list";

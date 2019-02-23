@@ -23,7 +23,7 @@ public class OrdersServiceImpl implements OrdersService {
      * @return
      */
     @Override
-    public List<Orders> findAll() {
+    public List<Orders> findAll() throws Exception {
         return om.findAll();
     }
 }
