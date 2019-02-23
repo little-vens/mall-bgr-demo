@@ -10,9 +10,26 @@ import java.util.List;
  */
 public interface OrdersService {
 
+//    /**
+//     * 查询所有
+//     * @return
+//     * @throws Exception
+//     */
+//    List<Orders> findAll() throws Exception;
+
     /**
-     * 查询所有
+     * 分页查询
+     * @param pageSize
+     * @param pageNum
+     * @return
+     * @throws Exception
+     */
+    List<Orders> findAllByPage(int pageNum, int pageSize) throws Exception;
+
+    /**
+     * 根据id查询单行记录
+     * @param id
      * @return
      */
-    List<Orders> findAll() throws Exception;
+    Orders findById(String id) throws Exception;
 }

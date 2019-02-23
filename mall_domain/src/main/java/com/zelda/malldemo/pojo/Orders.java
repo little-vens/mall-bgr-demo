@@ -1,5 +1,6 @@
 package com.zelda.malldemo.pojo;
 
+import com.zelda.malldemo.utils.DateUtils;
 import lombok.ToString;
 
 import java.util.Date;
@@ -15,13 +16,41 @@ public class Orders {
     private String id;                  // 无意义、主键uuid
     private String orderNum;            // 订单编号 不为空 唯一
     private Date orderTime;             // 下单时间
+    private String orderTimeStr;
     private Integer peopleCount;        // 出行人数
     private String orderDesc;           // 订单描述(其它信息)
     private Integer payType;            // 支付方式(0 支付宝 1 微信 2其它
+    private String payTypeStr;
     private Integer orderStatus;        // 订单状态(0 未支付 1 已支付)
+    private String orderStatusStr;
     private Product product;            // 产品 一对一
     private Members members;            // 会员 一对一
     private List<Traveller> travellers; // 旅客 一对多
+
+
+    public String getOrderTimeStr() {
+        return orderTimeStr;
+    }
+
+    public void setOrderTimeStr(String orderTimeStr) {
+        this.orderTimeStr = orderTimeStr;
+    }
+
+    public String getPayTypeStr() {
+        return payTypeStr = this.getPayType() == 0 ? "支付宝" : this.getPayType() == 1 ? "微信" : "其他";
+    }
+
+    public void setPayTypeStr(String payTypeStr) {
+        this.payTypeStr = payTypeStr;
+    }
+
+    public String getOrderStatusStr() {
+        return orderStatusStr = this.getOrderStatus() == 0 ? "未支付" : "已支付";
+    }
+
+    public void setOrderStatusStr(String orderStatusStr) {
+        this.orderStatusStr = orderStatusStr;
+    }
 
 
     public List<Traveller> getTravellers() {
@@ -54,6 +83,7 @@ public class Orders {
 
     public void setOrderTime(Date orderTime) {
         this.orderTime = orderTime;
+        this.setOrderTimeStr(DateUtils.dateToString(orderTime,"yyyy-MM-dd HH:mm"));
     }
 
     public Integer getPeopleCount() {

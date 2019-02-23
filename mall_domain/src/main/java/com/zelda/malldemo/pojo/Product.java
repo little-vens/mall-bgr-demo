@@ -27,7 +27,7 @@ public class Product implements Serializable {
     private String productStatusStr;    // 状态字符
 
     public String getDepartureTimeStr() {
-        this.setDepartureTimeStr(DateUtils.dateToString(this.getDepartureTime(),"yyyy-MM-dd hh:mm"));
+        this.setDepartureTimeStr(DateUtils.dateToString(this.getDepartureTime(),"yyyy-MM-dd HH:mm"));
         return departureTimeStr;
     }
 

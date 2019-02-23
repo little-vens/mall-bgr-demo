@@ -20,6 +20,5 @@ public interface MembersMapper {
     List<Members> findAll();
 
     @Select("select * from member where id = #{mid}")
-    @ResultMap("memberMap")
     Members findById(String mid);
 }
