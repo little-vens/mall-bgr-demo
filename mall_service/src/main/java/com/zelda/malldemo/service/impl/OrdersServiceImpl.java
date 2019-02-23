@@ -3,6 +3,7 @@ package com.zelda.malldemo.service.impl;
 import com.zelda.malldemo.mapper.OrdersMapper;
 import com.zelda.malldemo.pojo.Orders;
 import com.zelda.malldemo.service.OrdersService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -14,6 +15,7 @@ import java.util.List;
 @Service
 public class OrdersServiceImpl implements OrdersService {
 
+    @Autowired
     private OrdersMapper om;
 
     /**

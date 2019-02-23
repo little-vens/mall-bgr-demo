@@ -1,5 +1,6 @@
 package com.zelda.malldemo.pojo;
 
+import com.zelda.malldemo.utils.DateUtils;
 import lombok.ToString;
 
 import java.io.Serializable;
@@ -23,6 +24,7 @@ public class Product implements Serializable {
     private String productStatusStr;    // 状态字符
 
     public String getDepartureTimeStr() {
+        this.setDepartureTimeStr(DateUtils.dateToString(this.getDepartureTime(),"yyyy-MM-dd hh:mm"));
         return departureTimeStr;
     }
 
