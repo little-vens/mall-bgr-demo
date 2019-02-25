@@ -35,7 +35,7 @@ public interface ProductMapper {
     @Insert("insert into product(PRODUCTNUM,PRODUCTNAME,CITYNAME," +
             "DEPARTURETIME,PRODUCTPRICE,PRODUCTDESC,PRODUCTSTATUS)" +
             " values(#{productNum},#{productName},#{cityName}" +
-            ",#{departureTime},#{productPrice},#{productDesc}" +
+            ",#{departureTime},#{productPrice,jdbcType=NUMERIC},#{productDesc}" +
             ",#{productStatus})")
     void saveProduct(Product product);
 }
